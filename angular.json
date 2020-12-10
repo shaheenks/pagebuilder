@@ -124,6 +124,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "pagebuilder"
+    }
+  },
+  "defaultProject": "pagebuilder",
+  "cli": {
+    "analytics": false
+  }
 }
