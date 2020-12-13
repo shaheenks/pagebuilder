@@ -29,8 +29,8 @@
       </ul>
 
       <!-- Button trigger modal -->
-      <button type="button" class="btn btn-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
-        <span class="glyphicon glyphicon-align-left" aria-hidden="true"></span>
+      <button type="button" class="btn btn-outline-secondary btn-sm" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        <span class="fa fa-pencil-square-o" aria-hidden="true"></span>
         Edit
       </button>
     </div>
@@ -42,11 +42,33 @@
   <div class="modal-dialog">
     <div class="modal-content">
       <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+        <h5 class="modal-title" id="exampleModalLabel">Configure Navbar</h5>
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
       </div>
       <div class="modal-body">
-        ...
+        <div class="navbar-btn">
+          <div class="col"><p>btn1</p></div>
+          <div class="col"><p>btnaddr</p></div>
+          <div class="col"><input type="checkbox" class="form-check-input" id="exampleCheck1"></div>
+          <div class="col"><button class="btn"><span class="fa fa-pencil-square-o"></span></button></div>
+          <div class="col"><button class="btn"><span class="fa fa-remove"></span></button></div>
+        </div>
+        <div class="navbar-btn">
+          <div class="col"><p>btn2</p></div>
+          <div class="col"><p>btnaddr</p></div>
+          <div class="col">
+            <input type="checkbox" class="form-check-input" id="exampleCheck2">
+          </div>
+          <div class="col"><button class="btn"><span class="fa fa-pencil-square-o"></span></button></div>
+          <div class="col"><button class="btn"><span class="fa fa-remove"></span></button></div>
+        </div>
+        <div class="navbar-btn">
+          <div class="col"><p>btn3</p></div>
+          <div class="col"><p>btnaddr</p></div>
+          <div class="col"><input type="checkbox" class="form-check-input" id="exampleCheck3"></div>
+          <div class="col"><button class="btn"><span class="fa fa-pencil-square-o"></span></button></div>
+          <div class="col"><button class="btn"><span class="fa fa-remove"></span></button></div>
+        </div>
       </div>
       <div class="modal-footer">
         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
