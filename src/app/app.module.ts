@@ -7,13 +7,15 @@ import { FormsModule } from '@angular/forms';
 import { HomeComponent } from './home/home.component';
 import { LoginComponent } from './login/login.component';
 import { NavbarComponent } from './navbar/navbar.component';
+import { AlbumComponent } from './album/album.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     HomeComponent,
     LoginComponent,
-    NavbarComponent
+    NavbarComponent,
+    AlbumComponent
   ],
   imports: [
     BrowserModule,
